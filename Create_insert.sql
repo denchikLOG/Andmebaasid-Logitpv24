@@ -27,3 +27,17 @@ VALUES ('Prin', 'Liis', '2012-12-4', 'Tallinn', 120, 1),
 --andmete uuendamine tabelis
 UPDATE tootaja SET aadress='Tallinn', koormus=10, aktiivne=1
 WHERE tootajaID=1
+
+CREATE TABLE toovahetus(
+tootavahetusID int PRIMARY KEY identity(1,1),
+kuupaev date,
+tundidearv int,
+tootajaID int,
+FOREIGN KEY (tootajaID) REFERENCES tootaja(tootajaID))
+
+Select * from toovahetus;
+Select * from tootaja;
+
+--täidame tabeli
+INSERT INTO toovahetus
+VALUES ('2026-01-15', 2, 7)
