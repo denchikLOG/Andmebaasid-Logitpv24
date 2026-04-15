@@ -1,6 +1,10 @@
 ## AndmebaasidLogitpv24
 andmebaaside haldusega seotud sql kood ja konspektid
 
+## Sisukord
+-[Põhimõted](#Põhimõted)
+-[Piirangud](#Piirangud)
+-[Andmetüüpid](#Andmetüüpid)
 ## Põhimõted
 - Andmebaasihaldussüsteemid - tarkvara, millega abi saab luua andmebaas (mariaDB - XAMPP, SQL Server - SQL server Management Studio)
 - Andmebaas - struktureeritud andmete kogum
