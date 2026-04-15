@@ -73,3 +73,6 @@ VALUES ('Pirno', 'Andre', 1)
 
 Select * from Koolitus;
 Select * from opetaja;
+
+
+
