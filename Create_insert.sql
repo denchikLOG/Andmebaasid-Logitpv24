@@ -41,3 +41,35 @@ Select * from tootaja;
 --täidame tabeli
 INSERT INTO toovahetus
 VALUES ('2026-01-15', 2, 7)
+
+
+
+
+--Koolitus
+
+
+CREATE TABLE opetaja(
+opetajaID int PRIMARY KEY identity(1,1), --identity - automaatselt kasvab argb +1
+eesnimi varchar(15) not null,
+perenimi varchar(30) not null,
+aktiivne bit);
+ 
+CREATE TABLE Koolitus(
+koolitusID int PRIMARY KEY identity(1,1),
+nimetus varchar(50),
+kestus int,
+algus date,
+lopp date,
+opetajaID int,
+FOREIGN KEY (opetajaID) REFERENCES opetaja(opetajaID)
+);
+
+
+INSERT INTO koolitus
+VALUES ('IT andmebaasid', 12, '2026-1-1', '2026-1-12', 1)
+
+INSERT INTO opetaja(perenimi, eesnimi, aktiivne)
+VALUES ('Pirno', 'Andre', 1)
+
+Select * from Koolitus;
+Select * from opetaja;
