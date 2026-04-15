@@ -22,10 +22,15 @@ Päring - запрос
    3. CHECK --valid
    4. UNIQUE
    5. FOREIGN KEY
-   Andmetüüpid
+      
+   ##Andmetüüpid
    ```
    1. Int, smallint, deicmal(5,2) - numbrilised
    2. varchar(30), char(5), TEXT - tekst/sümbolised
    3. date, time, datetime - kuupäeva
    4. boolean, bit, bool - loogilised
    ```
+## Tabelivahelised seosed
+- üks-ühele (nt naine-mees)
+- üks-mitmele (nt naine-lapsed)
+- mitme-mitmele (nt õpilased-tunnid)
