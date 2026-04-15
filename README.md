@@ -16,8 +16,8 @@ Päring - запрос
 1. DDL - Data Definition Language
 2. DML - Data Manipulation Language
    
-   ## Piirangud -
-   ##Andmetüüpid
+   ## Piirangud - ограничения - CONSTRAINT (5)
+   Andmetüüpid
    ```
    1. Int, smallint, deicmal(5,2) - numbrilised
    2. varchar(30), char(5), TEXT - tekst/sümbolised
