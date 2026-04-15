@@ -1,4 +1,5 @@
 Create Database Logitpv24Baas;
+
 --ab kustutamine
 DROP database LOGITpe24baas1;
 
