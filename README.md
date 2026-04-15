@@ -17,6 +17,11 @@ Päring - запрос
 2. DML - Data Manipulation Language
    
    ## Piirangud - ограничения - CONSTRAINT (5)
+   1. PRIMARY KEY
+   2. NOT NULL
+   3. CHECK --valid
+   4. UNIQUE
+   5. FOREIGN KEY
    Andmetüüpid
    ```
    1. Int, smallint, deicmal(5,2) - numbrilised
