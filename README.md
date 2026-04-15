@@ -15,3 +15,12 @@ Päring - запрос
 <img width="483" height="424" alt="{18A9FFDB-3FD7-45A4-9D10-71CF3A24EF39}" src="https://github.com/user-attachments/assets/e47cd002-4094-4e4d-8839-959d462acd7d" />
 1. DDL - Data Definition Language
 2. DML - Data Manipulation Language
+   
+   ## Piirangud -
+   ##Andmetüüpid
+   ```
+   1. Int, smallint, deicmal(5,2) - numbrilised
+   2. varchar(30), char(5), TEXT - tekst/sümbolised
+   3. date, time, datetime - kuupäeva
+   4. boolean, bit, bool - loogilised
+   ```
