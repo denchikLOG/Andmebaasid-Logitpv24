@@ -38,6 +38,6 @@ ALTER TABLE ryhm ADD CONSTRAINT FK_ryhm
 FOREIGN KEY (ryhmjuhataja) REFERENCES tootaja(tootajaID);
 
 --Kontrolimiseks
-SELECT * FROM tootaja
-SELECT * FROM ryhm
-UPDATE ryhm SET ryhmjuhataja=3 WHERE ryhmNimi='Logitpv24'
+SELECT * FROM tootaja;
+SELECT * FROM ryhm;
+UPDATE ryhm SET ryhmjuhataja=3 WHERE ryhmNimi='Logitpv24';
