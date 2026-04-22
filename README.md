@@ -38,3 +38,8 @@ Päring - запрос
 - üks-ühele (nt naine-mees)
 - üks-mitmele (nt naine-lapsed)
 - mitme-mitmele (nt õpilased-tunnid)
+
+
+## ALTER TABLE - tabelii struktuuri muutmine
+
+1. Uues veeru lisamine
