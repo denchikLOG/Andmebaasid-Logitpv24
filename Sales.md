@@ -132,7 +132,7 @@ foreign key(staffID) references staff(staffID)
 
 insert into orders
 values(1,'complete', '2026-04-02', '2026-04-06', '2026-04-12', 1, 1)
-``
+```
 <img width="177" height="193" alt="{BDE1886F-6A23-483C-8EDC-576045FE3E67}" src="https://github.com/user-attachments/assets/0828cccf-bac0-4254-a71c-fc95c8ca7450" />
 
 ```sql
