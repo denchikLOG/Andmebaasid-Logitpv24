@@ -1,1 +1,47 @@
+-Küsimus 1
+Milliseid alljärgnevatest SQL andmetüüpidest kasutatakse loogiliste väärtuste (TRUE või FALSE) hoidmiseks?
+
+Numeric
+
+Bit
+
+Int -- õige
+
+Real
+
+Interval
+
+Bool -- õige
+
+
+-Küsimus 2
+Valige õige vastus
+Andmebaasis Linn tuleb hoida linnade, milledega on telefooniside, linna ajatsoon, koodi, minuuti maksumuse (tariifi) kohta andmed. Andmete kirjeldamiseks kasutatakse järgmised väljad:
+
+A                         ---- õige
+Linna_Kood CHAR(3)
+Nimetus VARCHAR(20)
+Tariif MONEY(3,2)
+Ajatsoon CHAR(2)
+
+
+B
+Linna_Kood INT
+Nimetus VARCHAR(20)
+Tariif INT
+Ajatsoon INT(2)
+
+
+C
+Linna_Kood CHAR(3)
+Nimetus VARCHAR(20)
+Tariif MONEY
+Ajatsoon INT
+
+
+D
+Linna_Kood INT
+Nimetus VARCHAR(2)
+Tariif FLOAT(2,3)
+Ajatsoon INT(2)
 
