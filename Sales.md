@@ -155,7 +155,7 @@ values(2, 2, 1, 12, 67, 25)
 
 
 ##Checking all tables
-````
+```
 select * from categories
 select * from brands
 select * from products
