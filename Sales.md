@@ -152,7 +152,7 @@ foreign key(productID) references products(productsID))
 insert into order_items
 values(2, 2, 1, 12, 67, 25)
 ```
-<img width="181" height="157" alt="{4AD5250E-81E4-431C-A3F0-A51573757F33}" src="https://github.com/user-attachments/assets/ca40ea2d-510d-4c5e-a774-03836dea223c" />
+<img width="217" height="187" alt="{CC574226-B34A-44AD-9146-7435D00B0D3C}" src="https://github.com/user-attachments/assets/bbdd2534-f153-46fe-9dac-35a7645ae83a" />
 
 
 ##Checking all tables
