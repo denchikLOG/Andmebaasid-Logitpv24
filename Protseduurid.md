@@ -55,6 +55,8 @@ VALUES ('Nokia');
 
 SELECT * FROM brands;
 ```
+<img width="193" height="64" alt="{6BA496D9-A1A5-4CAB-A100-2829C56C4556}" src="https://github.com/user-attachments/assets/f017cd92-e36d-4de5-8ddc-f159ccde346a" />
+
 ```
 --3.products
 Create TABLE products(
@@ -75,6 +77,7 @@ select * from products;
 INSERT INTO products
 VALUES ('nutitelefon 03',1, 2, 2021, 20022);
 ```
+<img width="481" height="71" alt="{A769F54E-4EA6-480A-BF61-180B3712A6AF}" src="https://github.com/user-attachments/assets/46b5fca6-67e7-4ba0-a3e4-25c73d7bb3f7" />
 
 
 
