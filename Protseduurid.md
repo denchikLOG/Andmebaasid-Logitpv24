@@ -17,7 +17,7 @@ END;
 
 <img width="230" height="107" alt="{1BAB41B9-119C-4ACB-B350-B3C0CD7F816B}" src="https://github.com/user-attachments/assets/81a658f0-5719-407e-a581-95587c9a6e11" />
 
-##Kustutamis kategooria
+## Kustutamis kategooria
 
 --proseduur, mis kustutab kategooria id järgi
 CREATE procedure kustutaKategooria
@@ -31,7 +31,7 @@ END;
 --kutse
 EXEC kustutaKategooria 1
 
-##Procedure otsingitaht
+## Procedure otsingitaht
 
 CREATE PROCEDURE otsingitaht
 @taht char(1)
@@ -39,7 +39,6 @@ AS BEGIN
        SELECT * FROM categories
   WHERE category_name LIKE @taht + '%';
 END;
-
 
 EXEC lisaKategooria 'Auto2'
 
@@ -79,7 +78,7 @@ VALUES ('nutitelefon 03',1, 2, 2021, 20022);
 
 
 
-##Procedure muudatus
+## Procedure muudatus
 
 CREATE PROCEDURE muudatus
     @tegevus varchar(10),
