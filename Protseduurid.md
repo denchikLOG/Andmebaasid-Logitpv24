@@ -32,6 +32,7 @@ END;
 --kutse
 EXEC kustutaKategooria 1
 ```
+
 ## Procedure otsingitaht
 ```
 CREATE PROCEDURE otsingitaht
@@ -44,8 +45,8 @@ END;
 EXEC lisaKategooria 'Auto2'
 ```
 
+## table brands
 ```
---2.brands
 CREATE TABLE brands(
 brand_id int PRIMARY KEY identity(1,1),
 brand_name varchar(15) UNIQUE);
@@ -57,8 +58,8 @@ SELECT * FROM brands;
 ```
 <img width="193" height="64" alt="{6BA496D9-A1A5-4CAB-A100-2829C56C4556}" src="https://github.com/user-attachments/assets/f017cd92-e36d-4de5-8ddc-f159ccde346a" />
 
+## table products
 ```
---3.products
 Create TABLE products(
 product_id int PRIMARY KEY identity(1,1),
 product_name varchar(50) not null,
