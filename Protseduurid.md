@@ -20,6 +20,7 @@ END;
 ## Kustutamis kategooria
 
 --proseduur, mis kustutab kategooria id järgi
+```
 CREATE procedure kustutaKategooria
 @kustutaId int
 AS
@@ -30,9 +31,9 @@ SELECT * FROM categories;
 END;
 --kutse
 EXEC kustutaKategooria 1
-
+```
 ## Procedure otsingitaht
-
+```
 CREATE PROCEDURE otsingitaht
 @taht char(1)
 AS BEGIN
@@ -41,9 +42,9 @@ AS BEGIN
 END;
 
 EXEC lisaKategooria 'Auto2'
+```
 
-
-
+```
 --2.brands
 CREATE TABLE brands(
 brand_id int PRIMARY KEY identity(1,1),
@@ -53,8 +54,8 @@ INSERT INTO brands(brand_name)
 VALUES ('Nokia');
 
 SELECT * FROM brands;
-
-
+```
+```
 --3.products
 Create TABLE products(
 product_id int PRIMARY KEY identity(1,1),
@@ -73,13 +74,13 @@ select * from products;
 
 INSERT INTO products
 VALUES ('nutitelefon 03',1, 2, 2021, 20022);
-
+```
 
 
 
 
 ## Procedure muudatus
-
+```
 CREATE PROCEDURE muudatus
     @tegevus varchar(10),
     @tabelinimi varchar(25),
@@ -105,6 +106,7 @@ EXEC muudatus 'add', 'categories', 'TestVeerg', 'int'
 Select * from categories
 
 exec muudatus 'drop', 'categories', 'TestVeerg'
+```
 
 <img width="500" height="187" alt="{CBA1BBA2-A66B-4FE5-A37A-B48C2F4BEFEB}" src="https://github.com/user-attachments/assets/52754515-8332-4f50-b3c9-514a5fe519fd" />
 
