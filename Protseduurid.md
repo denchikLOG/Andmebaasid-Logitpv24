@@ -1,6 +1,8 @@
 ## Sissukord
 -[Hindeline_Ülesanne](#Hindeline_Ülesanne)
 -[SQL_protseduur](#SQL_protseduur)
+-[HINDELINE_ÜLESANNE_XAMPP](#HINDELINE_ÜLESANNE_XAMPP)
+
 
 ## SQL_protseduur -
 store procedure - salvestatud protseduurid - sama mis on funktsioonid programmeerimises, mingi tegevus, mis on salvestatud andmebaasi, ja mida saab automaatselt teha (INSERT, UPDATE, SELECT, UPDATE).
