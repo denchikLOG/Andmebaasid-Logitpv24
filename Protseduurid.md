@@ -292,4 +292,6 @@ EXEC KuvaKliendiTyyp;
 INSERT INTO klient (nimi, linn, vanus, saldo)
 VALUES ('Ada Vong', 'Tartu', 55, 14.80);
  ```
+<img width="867" height="114" alt="{BE23ACB1-5FCE-46B0-AC6B-D62BEF11C31F}" src="https://github.com/user-attachments/assets/b38b4c24-9268-4895-b504-b20bc6ef4c3a" />
+
  Teeme teine procedure:
