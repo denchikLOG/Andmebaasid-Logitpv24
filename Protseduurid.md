@@ -277,7 +277,7 @@ END;
 
 EXEC KuvaKliendiTyyp;
  ```
- ## HINDELINE_ÜLESANNE_XAMPP
+## HINDELINE_ÜLESANNE_XAMPP
  
  Teeme esimene procedure:
   ```
