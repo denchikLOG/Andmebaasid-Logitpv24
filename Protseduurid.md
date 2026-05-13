@@ -152,8 +152,8 @@ VALUES ('Ada Vong ', 'Tartu', 55, 14.8);
  ```
 
 Et vaadata mis on tabelis kasutame select * from klient
- <img width="483" height="155" alt="image" src="https://github.com/user-attachments/assets/8641fe54-4acd-49c0-a4d1-870867dd8c7f" />
 
+<img width="483" height="155" alt="image" src="https://github.com/user-attachments/assets/8641fe54-4acd-49c0-a4d1-870867dd8c7f" />
 
 
 
@@ -168,7 +168,8 @@ BEGIN
 END;
  ```
 Et vaadata kas töötab kasutame (EXEC sp_KuvaKliendid;)
- <img width="275" height="184" alt="image" src="https://github.com/user-attachments/assets/03b68af4-9804-423e-8342-69b8e32ff200" />
+
+<img width="275" height="184" alt="image" src="https://github.com/user-attachments/assets/03b68af4-9804-423e-8342-69b8e32ff200" />
 
  
 
@@ -211,7 +212,8 @@ EXEC MuudaKlient
  ```
 
 Vaatame kas midagi muutunud:
- <img width="613" height="470" alt="image" src="https://github.com/user-attachments/assets/4380e317-5587-4bd9-8f16-04a21e9e9348" />
+
+<img width="613" height="470" alt="image" src="https://github.com/user-attachments/assets/4380e317-5587-4bd9-8f16-04a21e9e9348" />
 
  
 
@@ -230,10 +232,12 @@ EXEC KustutaKlient @id = 4;
 
 Vaatame kas klient ideega 4 kustunud:
 ENNE:
+
 <img width="445" height="170" alt="image" src="https://github.com/user-attachments/assets/19547f6e-1165-4fd7-9288-da18a8df5ffd" />
  
 PÄRAST:
- <img width="522" height="233" alt="image" src="https://github.com/user-attachments/assets/45c7f2f6-627b-4507-b3b6-167c9f0f68d9" />
+
+<img width="522" height="233" alt="image" src="https://github.com/user-attachments/assets/45c7f2f6-627b-4507-b3b6-167c9f0f68d9" />
 
 
  
@@ -252,10 +256,12 @@ EXEC OtsiKlient @nimi = 'J';
  ```
 
 Result:
- <img width="473" height="127" alt="image" src="https://github.com/user-attachments/assets/9c44a0bd-e7a1-4e71-8234-32a7cbf42803" />
+
+<img width="473" height="127" alt="image" src="https://github.com/user-attachments/assets/9c44a0bd-e7a1-4e71-8234-32a7cbf42803" />
 
 Või ainult üks täht:
- <img width="708" height="263" alt="image" src="https://github.com/user-attachments/assets/fc66961e-7196-4eeb-8d39-f312b7395a50" />
+
+<img width="708" height="263" alt="image" src="https://github.com/user-attachments/assets/fc66961e-7196-4eeb-8d39-f312b7395a50" />
 
 
  
