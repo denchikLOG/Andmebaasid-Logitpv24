@@ -151,7 +151,7 @@ INSERT INTO klient (nimi, linn, vanus, saldo)
 VALUES ('Ada Vong ', 'Tartu', 55, 14.8);
  ```
 
-Et vaadata mis on tabelis kasutame select * from klient:
+Et vaadata mis on tabelis kasutame select * from klient
  <img width="483" height="155" alt="image" src="https://github.com/user-attachments/assets/8641fe54-4acd-49c0-a4d1-870867dd8c7f" />
 
 
@@ -167,7 +167,7 @@ BEGIN
     SELECT nimi, linn FROM klient;
 END;
  ```
-Et vaadata kas töötab kasutame (EXEC sp_KuvaKliendid;):
+Et vaadata kas töötab kasutame (EXEC sp_KuvaKliendid;)
  <img width="275" height="184" alt="image" src="https://github.com/user-attachments/assets/03b68af4-9804-423e-8342-69b8e32ff200" />
 
  
