@@ -1,5 +1,5 @@
-[#Hindeline Ülesanne](#Hindeline Ülesanne)
-[#SQL protseduur](#SQL protseduur)
+-[#Hindeline Ülesanne](#Hindeline Ülesanne)
+-[#SQL protseduur](#SQL protseduur)
 
 ## SQL protseduur -
 store procedure - salvestatud protseduurid - sama mis on funktsioonid programmeerimises, mingi tegevus, mis on salvestatud andmebaasi, ja mida saab automaatselt teha (INSERT, UPDATE, SELECT, UPDATE).
