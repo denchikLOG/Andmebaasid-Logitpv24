@@ -125,8 +125,9 @@ exec muudatus 'drop', 'categories', 'TestVeerg'
 ## HINDELINE_ÜLESANNE
 
 ## Sisukord
--[Algus](#Algus)
--[Procedurid](#Procedurid)
+- [Algus](#Algus)
+
+- [Procedurid](#Procedurid)
 
 
 ## Algus
