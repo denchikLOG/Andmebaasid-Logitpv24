@@ -83,9 +83,6 @@ VALUES ('nutitelefon 03',1, 2, 2021, 20022);
 ```
 <img width="481" height="71" alt="{A769F54E-4EA6-480A-BF61-180B3712A6AF}" src="https://github.com/user-attachments/assets/46b5fca6-67e7-4ba0-a3e4-25c73d7bb3f7" />
 
-
-
-
 ## Procedure muudatus
 ```
 CREATE PROCEDURE muudatus
@@ -119,6 +116,7 @@ exec muudatus 'drop', 'categories', 'TestVeerg'
 
 
 
+
 ## HINDELINE ÜLESANNE
 
 ## Sisukord
@@ -126,19 +124,19 @@ exec muudatus 'drop', 'categories', 'TestVeerg'
 -[Procedurid](#Procedurid)
 
 
-##Algus
+## Algus
 
 Alustame
 
 Lisame database: 
  
-'''
+ ```
 create database ProtseduriMelnikov;
 use ProtseduriMelnikov
-'''
+ ```
 
 Seal me lisame table: 
-'''
+ ```
 CREATE TABLE klient (
     id INT PRIMARY KEY IDENTITY(1,1),
     nimi VARCHAR(25) NOT NULL,
@@ -148,7 +146,7 @@ CREATE TABLE klient (
 );
 INSERT INTO klient (nimi, linn, vanus, saldo)
 VALUES ('Ada Vong ', 'Tartu', 55, 14.8);
-'''
+ ```
 
 Et vaadata mis on tabelis kasutame select * from klient:
  <img width="483" height="155" alt="image" src="https://github.com/user-attachments/assets/8641fe54-4acd-49c0-a4d1-870867dd8c7f" />
@@ -159,20 +157,20 @@ Et vaadata mis on tabelis kasutame select * from klient:
  ## Procedurid
 
 Teeme esimene procedure:
-'''
+ ```
  CREATE PROCEDURE KuvaKliendid
 AS
 BEGIN
     SELECT nimi, linn FROM klient;
 END;
-'''
+ ```
 Et vaadata kas töötab kasutame (EXEC sp_KuvaKliendid;):
  <img width="275" height="184" alt="image" src="https://github.com/user-attachments/assets/03b68af4-9804-423e-8342-69b8e32ff200" />
 
  
 
 Teeme teine procedure:
-'''
+ ```
 CREATE PROCEDURE LisaKlient
 @nimi VARCHAR(23),
 @linn VARCHAR(20),
@@ -189,11 +187,11 @@ EXEC LisaKlient
 @linn = 'Narva',
 @vanus = 40,
 @saldo = 120.00;
-'''
+ ```
 
 
 Teeme kolmas procedure:
-'''
+ ```
 CREATE PROCEDURE MuudaKlient
 @id INT,
 @linn NVARCHAR(100)
@@ -207,7 +205,7 @@ END;
 EXEC MuudaKlient 
 @id = 5,
 @linn = 'Maardu'
-'''
+ ```
 
 Vaatame kas midagi muutunud:
  <img width="613" height="470" alt="image" src="https://github.com/user-attachments/assets/4380e317-5587-4bd9-8f16-04a21e9e9348" />
@@ -215,7 +213,7 @@ Vaatame kas midagi muutunud:
  
 
 Teeme neljas procedure:
-'''
+ ```
 CREATE PROCEDURE KustutaKlient
 @id INT
 AS
@@ -225,7 +223,7 @@ BEGIN
 END;
 
 EXEC KustutaKlient @id = 4;
-'''
+ ```
 
 Vaatame kas klient ideega 4 kustunud:
 ENNE:
@@ -237,7 +235,7 @@ PÄRAST:
 
  
 Teeme viies procedure:
-'''
+ ```
 CREATE PROCEDURE OtsiKlient
 @nimi VARCHAR(10)
 AS
@@ -248,7 +246,7 @@ BEGIN
 END;
 
 EXEC OtsiKlient @nimi = 'J';
-'''
+ ```
 
 Result:
  <img width="473" height="127" alt="image" src="https://github.com/user-attachments/assets/9c44a0bd-e7a1-4e71-8234-32a7cbf42803" />
@@ -259,7 +257,7 @@ Või ainult üks täht:
 
  
 Teeme kuues procedure:
- '''
+ ```
 CREATE PROCEDURE KuvaKliendiTyyp
 AS
 BEGIN
@@ -275,6 +273,6 @@ BEGIN
 END;
 
 EXEC KuvaKliendiTyyp;
- '''
+ ```
  
 
