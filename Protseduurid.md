@@ -275,5 +275,19 @@ END;
 
 EXEC KuvaKliendiTyyp;
  ```
- 
+ ## HINDELINE_ÜLESANNE_XAMPP
+ 
+ Teeme esimene procedure:
+  ```
+ CREATE TABLE klient (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nimi VARCHAR(25) NOT NULL,
+    linn VARCHAR(20),
+    vanus INT,
+    saldo DECIMAL(10,2)
+);
 
+INSERT INTO klient (nimi, linn, vanus, saldo)
+VALUES ('Ada Vong', 'Tartu', 55, 14.80);
+ ```
+ Teeme teine procedure:
