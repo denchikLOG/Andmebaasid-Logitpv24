@@ -1,3 +1,6 @@
+[#Hindeline Ülesanne](#Hindeline Ülesanne)
+[#SQL protseduur](#SQL protseduur)
+
 ## SQL protseduur -
 store procedure - salvestatud protseduurid - sama mis on funktsioonid programmeerimises, mingi tegevus, mis on salvestatud andmebaasi, ja mida saab automaatselt teha (INSERT, UPDATE, SELECT, UPDATE).
 
@@ -115,4 +118,163 @@ exec muudatus 'drop', 'categories', 'TestVeerg'
 <img width="500" height="187" alt="{CBA1BBA2-A66B-4FE5-A37A-B48C2F4BEFEB}" src="https://github.com/user-attachments/assets/52754515-8332-4f50-b3c9-514a5fe519fd" />
 
 
+
+## HINDELINE ÜLESANNE
+
+## Sisukord
+-[Algus](#Algus)
+-[Procedurid](#Procedurid)
+
+
+##Algus
+
+Alustame
+
+Lisame database: 
+ 
+'''
+create database ProtseduriMelnikov;
+use ProtseduriMelnikov
+'''
+
+Seal me lisame table: 
+'''
+CREATE TABLE klient (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nimi VARCHAR(25) NOT NULL,
+    linn VARCHAR(20),
+    vanus INT,
+    saldo MONEY
+);
+INSERT INTO klient (nimi, linn, vanus, saldo)
+VALUES ('Ada Vong ', 'Tartu', 55, 14.8);
+'''
+
+Et vaadata mis on tabelis kasutame select * from klient:
+ <img width="483" height="155" alt="image" src="https://github.com/user-attachments/assets/8641fe54-4acd-49c0-a4d1-870867dd8c7f" />
+
+
+
+
+ ## Procedurid
+
+Teeme esimene procedure:
+'''
+ CREATE PROCEDURE KuvaKliendid
+AS
+BEGIN
+    SELECT nimi, linn FROM klient;
+END;
+'''
+Et vaadata kas töötab kasutame (EXEC sp_KuvaKliendid;):
+ <img width="275" height="184" alt="image" src="https://github.com/user-attachments/assets/03b68af4-9804-423e-8342-69b8e32ff200" />
+
+ 
+
+Teeme teine procedure:
+'''
+CREATE PROCEDURE LisaKlient
+@nimi VARCHAR(23),
+@linn VARCHAR(20),
+@vanus INT,
+@saldo MONEY
+AS
+BEGIN
+    INSERT INTO klient (nimi, linn, vanus, saldo)
+    VALUES (@nimi, @linn, @vanus, @saldo);
+END;
+
+EXEC LisaKlient 
+@nimi = 'Peeter Põld',
+@linn = 'Narva',
+@vanus = 40,
+@saldo = 120.00;
+'''
+
+
+Teeme kolmas procedure:
+'''
+CREATE PROCEDURE MuudaKlient
+@id INT,
+@linn NVARCHAR(100)
+AS
+BEGIN
+    UPDATE klient
+    SET linn = @linn
+    WHERE id = @id;
+END;
+
+EXEC MuudaKlient 
+@id = 5,
+@linn = 'Maardu'
+'''
+
+Vaatame kas midagi muutunud:
+ <img width="613" height="470" alt="image" src="https://github.com/user-attachments/assets/4380e317-5587-4bd9-8f16-04a21e9e9348" />
+
+ 
+
+Teeme neljas procedure:
+'''
+CREATE PROCEDURE KustutaKlient
+@id INT
+AS
+BEGIN
+    DELETE FROM klient
+    WHERE id = @id;
+END;
+
+EXEC KustutaKlient @id = 4;
+'''
+
+Vaatame kas klient ideega 4 kustunud:
+ENNE:
+<img width="445" height="170" alt="image" src="https://github.com/user-attachments/assets/19547f6e-1165-4fd7-9288-da18a8df5ffd" />
+ 
+PÄRAST:
+ <img width="522" height="233" alt="image" src="https://github.com/user-attachments/assets/45c7f2f6-627b-4507-b3b6-167c9f0f68d9" />
+
+
+ 
+Teeme viies procedure:
+'''
+CREATE PROCEDURE OtsiKlient
+@nimi VARCHAR(10)
+AS
+BEGIN
+	SELECT *
+    FROM klient
+    WHERE nimi LIKE @nimi + '%';
+END;
+
+EXEC OtsiKlient @nimi = 'J';
+'''
+
+Result:
+ <img width="473" height="127" alt="image" src="https://github.com/user-attachments/assets/9c44a0bd-e7a1-4e71-8234-32a7cbf42803" />
+
+Või ainult üks täht:
+ <img width="708" height="263" alt="image" src="https://github.com/user-attachments/assets/fc66961e-7196-4eeb-8d39-f312b7395a50" />
+
+
+ 
+Teeme kuues procedure:
+ '''
+CREATE PROCEDURE KuvaKliendiTyyp
+AS
+BEGIN
+    SELECT 
+        id,
+        nimi,
+        saldo,
+        CASE
+            WHEN saldo > 100 THEN 'Hea klient'
+            ELSE 'Tavaklient'
+        END AS kliendi_tyyp
+    FROM klient;
+END;
+
+EXEC KuvaKliendiTyyp;
+ '''
+ 
 
