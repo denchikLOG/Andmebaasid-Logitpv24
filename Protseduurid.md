@@ -1,8 +1,8 @@
 ## Sissukord
--[Hindeline Ülesanne](#Hindeline Ülesanne)
--[SQL protseduur](#SQL protseduur)
+-[Hindeline_Ülesanne](#Hindeline_Ülesanne)
+-[SQL_protseduur](#SQL_protseduur)
 
-## SQL protseduur -
+## SQL_protseduur -
 store procedure - salvestatud protseduurid - sama mis on funktsioonid programmeerimises, mingi tegevus, mis on salvestatud andmebaasi, ja mida saab automaatselt teha (INSERT, UPDATE, SELECT, UPDATE).
 
 ```
@@ -118,7 +118,7 @@ exec muudatus 'drop', 'categories', 'TestVeerg'
 
 
 
-## HINDELINE ÜLESANNE
+## HINDELINE_ÜLESANNE
 
 ## Sisukord
 -[Algus](#Algus)
