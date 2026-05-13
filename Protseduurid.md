@@ -1,7 +1,7 @@
 ## Sissukord
--[Hindeline_Ülesanne](#Hindeline_Ülesanne)
--[SQL_protseduur](#SQL_protseduur)
--[HINDELINE_ÜLESANNE_XAMPP](#HINDELINE_ÜLESANNE_XAMPP)
+[Hindeline_Ülesanne](#Hindeline_Ülesanne)
+[SQL_protseduur](#SQL_protseduur)
+[Hindeline_ülesanne_XAMPP](#HINDELINE_ÜLESANNE_XAMPP)
 
 
 ## SQL_protseduur -
