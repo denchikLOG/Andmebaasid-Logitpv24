@@ -29,8 +29,11 @@ New Login...
 
     anname kasutajale õigus vaadata tabelit (SELECT), lisada andmed (INSERT )ning uuendada need(UPDATE)
 
-```
-grant select on opilane_table to Director
-grant insert on opilane_table to Director
-grant update on opilane_table to Director
-```
+  ```
+  grant select on opilane_table to Director
+  grant insert on opilane_table to Director
+  grant update on opilane_table to Director
+  ```
+  5. Kasutaja õiguste kontrol
+     
+<img width="479" height="515" alt="{D0796A9E-7BEA-4D68-9CD4-015C152C86D8}" src="https://github.com/user-attachments/assets/c08a9b8e-54e8-4d1a-b4a3-22fc62707184" />
