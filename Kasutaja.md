@@ -37,3 +37,8 @@ anname kasutajale õigus vaadata tabelit (SELECT), lisada andmed (INSERT )ning u
   5. Kasutaja õiguste kontrol
      
 <img width="479" height="515" alt="{D0796A9E-7BEA-4D68-9CD4-015C152C86D8}" src="https://github.com/user-attachments/assets/c08a9b8e-54e8-4d1a-b4a3-22fc62707184" />
+
+  Kasutaja Director ei saa kasutada Delete:
+
+<img width="1151" height="307" alt="{BB9280B7-1557-4FA6-9456-0DC7492DF374}" src="https://github.com/user-attachments/assets/3a8a972f-b9b8-44c1-821f-3586edf232ef" />
+
