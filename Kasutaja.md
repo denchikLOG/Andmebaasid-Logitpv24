@@ -30,9 +30,16 @@ Deny <- õiguste keelamine
 anname kasutajale õigus vaadata tabelit (SELECT), lisada andmed (INSERT )ning uuendada need(UPDATE)
 
   ```
+  GRANT
+
   grant select on opilane_table to Director
   grant insert on opilane_table to Director
   grant update on opilane_table to Director
+
+  DENY
+
+  deny delete on opilane_table to Director
+  deny create on opilane_table to Director
   ```
   5. Kasutaja õiguste kontrol
      
