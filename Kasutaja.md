@@ -50,12 +50,21 @@ anname kasutajale õigus vaadata tabelit (SELECT), lisada andmed (INSERT )ning u
 <img width="1151" height="307" alt="{BB9280B7-1557-4FA6-9456-0DC7492DF374}" src="https://github.com/user-attachments/assets/3a8a972f-b9b8-44c1-821f-3586edf232ef" />
 
 
+
+
+
+
+
+
 ## Ülesanne 1
-   on vaja:
+   On vaja:
+   
 Luua andmebaas: MovieBase
+
 Luua tabelid: 
 movies (id, moviesNimi, moviesYear, movieDir, movieCost).
 guest (id, name)
+
 Lisada vähemalt 7 kirjet.
 
 1. Luua tabliet, andmebaas:
