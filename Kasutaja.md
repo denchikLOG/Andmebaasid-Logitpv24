@@ -49,3 +49,19 @@ anname kasutajale õigus vaadata tabelit (SELECT), lisada andmed (INSERT )ning u
 
 <img width="1151" height="307" alt="{BB9280B7-1557-4FA6-9456-0DC7492DF374}" src="https://github.com/user-attachments/assets/3a8a972f-b9b8-44c1-821f-3586edf232ef" />
 
+
+
+
+
+use kasutaja;
+ select * from opilane_table;
+ insert into opilane_table(nimi, vanus, aadress)
+values('Kevad Talv', 22, 'Eesti, Tallinn')
+
+
+update opilane_table set nimi='test' where opilane_tableid=2
+
+create table test(id int)
+
+delete from opilane_table where opilane_tableID=2
+
