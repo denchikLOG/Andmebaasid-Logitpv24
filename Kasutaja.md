@@ -59,8 +59,8 @@ guest (id, name)
 Lisada vähemalt 7 kirjet.
 
 1. Luua tabliet, andmebaas:
-   ````
-   CREATE DATABASE MovieBaseLogitpv24;
+````
+CREATE DATABASE MovieBaseLogitpv24;
 
 USE MovieBaseLogitpv24;
 
@@ -85,7 +85,7 @@ VALUES('Laura');
 
 select * from guest
 select * from movies
-   ````
+````
 
 <img width="443" height="372" alt="{81F7DACB-1B95-47C4-8544-A6939C7A2B95}" src="https://github.com/user-attachments/assets/a8ec77e5-32e6-4f44-bf1a-bae46f674700" />
 
