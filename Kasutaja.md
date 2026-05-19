@@ -21,11 +21,13 @@ New Login...
 
   <img width="702" height="658" alt="{0BC5089E-7ABE-4E6D-8A45-7D9E9A602A47}" src="https://github.com/user-attachments/assets/375dbe8b-22d4-4992-aa02-012e1eff61aa" />
 
-Grant <- õiguste määramine
+  4. SQL commands
 
-Deny <- õiguste keelamine
+    Grant <- õiguste määramine
 
-anname kasutajale õigus vaadata tabelit (SELECT), lisada andmed (INSERT )ning uuendada need(UPDATE)
+    Deny <- õiguste keelamine
+
+    anname kasutajale õigus vaadata tabelit (SELECT), lisada andmed (INSERT )ning uuendada need(UPDATE)
 
 ```
 grant select on opilane_table to Director
