@@ -23,11 +23,11 @@ New Login...
 
   4. SQL commands
 
-    Grant <- õiguste määramine
+Grant <- õiguste määramine
 
-    Deny <- õiguste keelamine
+Deny <- õiguste keelamine
 
-    anname kasutajale õigus vaadata tabelit (SELECT), lisada andmed (INSERT )ning uuendada need(UPDATE)
+anname kasutajale õigus vaadata tabelit (SELECT), lisada andmed (INSERT )ning uuendada need(UPDATE)
 
   ```
   grant select on opilane_table to Director
