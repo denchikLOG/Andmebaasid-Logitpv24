@@ -8,4 +8,15 @@ Security -> Login; Tee paremklikk ja vali:
 
 New Login... 
 
-<img width="705" height="651" alt="{B0F8ABD3-933A-451C-8536-F1DBC3136D74}" src="https://github.com/user-attachments/assets/4c1ea62c-2090-4c18-b429-20963272eeed" />
+  <img width="705" height="651" alt="{B0F8ABD3-933A-451C-8536-F1DBC3136D74}" src="https://github.com/user-attachments/assets/4c1ea62c-2090-4c18-b429-20963272eeed" />
+
+ 2. Avame Server Roles:
+
+   Valime Public:
+
+   <img width="388" height="321" alt="{8454669B-5C65-4D61-A9BA-6A9EEB3A44D8}" src="https://github.com/user-attachments/assets/15f24699-d11e-4468-b584-176e358439d5" />
+
+
+ 3. Pärast avame User Mapping:
+
+  <img width="702" height="658" alt="{0BC5089E-7ABE-4E6D-8A45-7D9E9A602A47}" src="https://github.com/user-attachments/assets/375dbe8b-22d4-4992-aa02-012e1eff61aa" />
