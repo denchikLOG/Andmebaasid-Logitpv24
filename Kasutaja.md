@@ -53,15 +53,5 @@ anname kasutajale õigus vaadata tabelit (SELECT), lisada andmed (INSERT )ning u
 
 
 
-use kasutaja;
- select * from opilane_table;
- insert into opilane_table(nimi, vanus, aadress)
-values('Kevad Talv', 22, 'Eesti, Tallinn')
 
-
-update opilane_table set nimi='test' where opilane_tableid=2
-
-create table test(id int)
-
-delete from opilane_table where opilane_tableID=2
 
