@@ -121,6 +121,11 @@ DENY DELETE ON guest TO Produss;
 
 4. Logime sisse nagu Produss ja proovime näiteks kasutada delete:
 
+````
+USE MovieBaseLogitpv24;
+
+delete from movies where moviesid=1
+````
 <img width="1124" height="208" alt="{A8F88BF7-3412-420B-BDA5-A941B5814D0B}" src="https://github.com/user-attachments/assets/b9186118-7899-4ff0-9ebb-72ef76998657" />
 
 
