@@ -29,4 +29,5 @@
 
 # Kontrollimine:
 
-<img width="352" height="97" alt="{04BC32CE-551C-40DA-B922-DAC1E62C05D6}" src="https://github.com/user-attachments/assets/dbcac912-4851-4301-b038-b2d74ec705ae" />
+<img width="340" height="89" alt="{265CD3B2-1918-48C8-AB6F-C7777A37F653}" src="https://github.com/user-attachments/assets/3ef63d85-dfa9-40c7-8797-107480c68d39" />
+
