@@ -1,4 +1,4 @@
-1. Primary Key (Primaarvõti)
+## Primary Key (Primaarvõti)
 Definitsioon
 
 Primary Key on väli või väljade kombinatsioon, mis identifitseerib iga tabeli rea üheselt.
@@ -18,7 +18,7 @@ CREATE TABLE Opilane (
     perenimi VARCHAR(50)
 );
 ````
-2. Foreign Key (Võõrvõti)
+## Foreign Key (Võõrvõti)
 Definitsioon
 
 Foreign Key on väli, mis viitab teise tabeli Primary Key-le.
@@ -43,7 +43,7 @@ CREATE TABLE Opilane (
     FOREIGN KEY (klass_id) REFERENCES Klass(klass_id)
 );
 ````
-3. Unique Key
+## Unique Key
 Definitsioon
 
 Unique Key tagab, et kõik väärtused veerus on unikaalsed.
@@ -60,7 +60,7 @@ CREATE TABLE Kasutaja (
     email VARCHAR(100) UNIQUE
 );
 ````
-4. Simple Key
+## Simple Key
 Definitsioon
 
 Simple Key koosneb ainult ühest atribuudist.
@@ -78,7 +78,7 @@ CREATE TABLE Raamat (
 ````
 Siin on isbn simple key.
 
-5. Composite Key
+## Composite Key
 Definitsioon
 
 Composite Key koosneb kahest või enamast väljast, mis koos tagavad unikaalsuse.
@@ -96,7 +96,7 @@ CREATE TABLE Hinne (
     PRIMARY KEY (opilane_id, aine_id)
 );
 ````
-6. Compound Key
+## Compound Key
 Definitsioon
 
 Compound Key on Composite Key erijuht, kus võtme moodustavad mitu atribuuti ja vähemalt üks neist võib olla Foreign Key.
@@ -123,7 +123,7 @@ CREATE TABLE Registreerimine (
     FOREIGN KEY (kursus_id) REFERENCES Kursus(kursus_id)
 );
 ````
-7. Superkey
+## Superkey
 Definitsioon
 
 Superkey on üks või mitu atribuuti, mis võimaldavad kirje üheselt tuvastada.
@@ -149,7 +149,7 @@ isikukood
 
 --Kõik need tuvastavad rea üheselt.
 ````
-8. Candidate Key (Kandidaatvõti)
+## Candidate Key (Kandidaatvõti)
 Definitsioon
 
 Candidate Key on minimaalne superkey.
@@ -175,7 +175,7 @@ isikukood
 
 --Mõlemad identifitseerivad töötaja üheselt.
 ````
-9. Alternate Key (Alternatiivvõti)
+## Alternate Key (Alternatiivvõti)
 Definitsioon
 
 Alternate Key on kandidaatvõti, mida ei valitud Primary Key-ks.
