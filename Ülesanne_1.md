@@ -3,13 +3,13 @@
 ## Andmebaaside konspektid
 [Create_insert](Create_insert.sql) | [Kasutaja](Kasutaja.md) | [triger](triger.md) | [trigeridXAMPP](trigeridXAMPP.md) | [Ülesanne_1](Ülesanne_1.sql)
 
-
+````
 --Lisame Category tabelit
 CREATE TABLE Category(
 categoryID int PRIMARY KEY identity(1,1),
 categoryName varchar(50) not null
 );
-
+````
 ````
 --Lisame Product tabelit
 CREATE TABLE Products(
