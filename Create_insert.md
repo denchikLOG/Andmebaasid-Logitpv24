@@ -1,3 +1,8 @@
+## Andmebaaside konspektid
+[Create_insert](Create_insert.sql) | [Kasutaja](Kasutaja.md) | [triger](triger.md) | [trigeridXAMPP](trigeridXAMPP.md) | [Ülesanne_1](Ülesanne_1.sql)
+
+
+````
 Create Database Logitpv24Baas;
 
 --ab kustutamine
@@ -12,7 +17,9 @@ synniaeg date,
 aadress TEXT,
 koormus int CHECK (koormus>0), -- piirang, et koormus >0
 aktiivne bit);
+````
 
+````
 --tabeli kuvamine
 SELECT * FROM tootaja;
 
@@ -23,11 +30,14 @@ VALUES ('Ilus', 'Liis', '2002-12-4')
 INSERT INTO tootaja
 VALUES ('Prin', 'Liis', '2012-12-4', 'Tallinn', 120, 1),
 ('Peja', 'Punane', '2002-10-4', 'Narva', 200, 0);
-
+````
+````
 --andmete uuendamine tabelis
 UPDATE tootaja SET aadress='Tallinn', koormus=10, aktiivne=1
 WHERE tootajaID=1
+````
 
+````
 CREATE TABLE toovahetus(
 tootavahetusID int PRIMARY KEY identity(1,1),
 kuupaev date,
@@ -37,14 +47,15 @@ FOREIGN KEY (tootajaID) REFERENCES tootaja(tootajaID))
 
 Select * from toovahetus;
 Select * from tootaja;
-
+````
+````
 --täidame tabeli
 INSERT INTO toovahetus
 VALUES ('2026-01-15', 2, 7)
+````
 
 
-
-
+````
 --Koolitus
 
 
@@ -74,5 +85,5 @@ VALUES ('Pirno', 'Andre', 1)
 Select * from Koolitus;
 Select * from opetaja;
 
-
+````
 
