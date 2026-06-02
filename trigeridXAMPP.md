@@ -1,3 +1,7 @@
+## Andmebaaside konspektid
+[Create_insert](Create_insert.sql) | [Kasutaja](Kasutaja.md) | [triger](triger.md) | [trigeridXAMPP](trigeridXAMPP.md) | [Ülesanne_1](Ülesanne_1.sql)
+
+
 # Andmebaas: 
 
 <img width="234" height="90" alt="{573E1577-1991-46CA-9051-843ABF1128E4}" src="https://github.com/user-attachments/assets/3ac9d969-634f-4952-bfc6-8eadddcf083e" />
