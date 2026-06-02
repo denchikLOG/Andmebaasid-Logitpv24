@@ -1,4 +1,8 @@
+Andmebaas: 
+
 <img width="234" height="90" alt="{573E1577-1991-46CA-9051-843ABF1128E4}" src="https://github.com/user-attachments/assets/3ac9d969-634f-4952-bfc6-8eadddcf083e" />
+
+Trigerid:
 
 <img width="564" height="250" alt="{924B0CA6-09A8-4E9C-A6F8-1AFF1AE59CA5}" src="https://github.com/user-attachments/assets/64875d9a-502b-4687-8cc9-5f814c656102" />
 
