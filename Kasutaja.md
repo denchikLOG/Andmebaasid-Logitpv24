@@ -3,7 +3,7 @@
 2. SQL server Authentication
 
 ## Andmebaaside konspektid
-[Create_insert](Create_insert.sql) | [Kasutaja](Kasutaja.md) | [triger](triger.md) | [trigeridXAMPP](trigeridXAMPP.md) | [Ülesanne_1](Ülesanne_1.sql)
+[Create_insert](Create_insert.md) | [Kasutaja](Kasutaja.md) | [triger](triger.md) | [trigeridXAMPP](trigeridXAMPP.md) | [Keys](Keys.md)
 
 # Kasutaja loomine SQL serveris 
   1. serveritaseme kasutaja loomine (Login) Sammud Ava:
