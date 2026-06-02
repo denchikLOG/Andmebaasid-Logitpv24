@@ -83,5 +83,6 @@ FROM deleted
 INNER JOIN inserted
 ON deleted.linnID=inserted.linnID;
 ```
+<img width="964" height="547" alt="{20A9CDCC-F192-4413-B545-16CA9E5E578D}" src="https://github.com/user-attachments/assets/b4987faf-7c06-41ee-ae56-9640ae17b2c5" />
 
 
