@@ -1,9 +1,10 @@
+## Andmebaaside konspektid
+[Create_insert](Create_insert.md) | [Kasutaja](Kasutaja.md) | [triger](triger.md) | [trigeridXAMPP](trigeridXAMPP.md) | [Keys](Keys.md)
+
+
 ## SQL sever - Kasutajate autemine ja õiguste haldamine
 1. Windows Authentication
 2. SQL server Authentication
-
-## Andmebaaside konspektid
-[Create_insert](Create_insert.md) | [Kasutaja](Kasutaja.md) | [triger](triger.md) | [trigeridXAMPP](trigeridXAMPP.md) | [Keys](Keys.md)
 
 # Kasutaja loomine SQL serveris 
   1. serveritaseme kasutaja loomine (Login) Sammud Ava:
