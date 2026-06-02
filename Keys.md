@@ -131,6 +131,8 @@ CREATE TABLE Registreerimine(
     FOREIGN KEY (kursus_id) REFERENCES Kursus(kursus_id));
 ````
 
+<img width="518" height="268" alt="{ACAA78FB-991B-4175-8C4E-DFDBD52E946E}" src="https://github.com/user-attachments/assets/feb71aaf-501c-491a-9ac0-c372ded01260" />
+
 # Superkey
 
 ## Definitsioon
