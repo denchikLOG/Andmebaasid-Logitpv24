@@ -1,5 +1,5 @@
-## Primary Key (Primaarvõti)
-# Definitsioon
+# Primary Key (Primaarvõti)
+## Definitsioon
 
 Primary Key on väli või väljade kombinatsioon, mis identifitseerib iga tabeli rea üheselt.
 
@@ -21,8 +21,8 @@ CREATE TABLE Opilane (
 );
 ````
 
-## Foreign Key (Võõrvõti)
-# Definitsioon
+# Foreign Key (Võõrvõti)
+## Definitsioon
 
 Foreign Key on väli, mis viitab teise tabeli Primary Key-le.
 Milleks kasutatakse?
@@ -49,8 +49,8 @@ CREATE TABLE Opilane (
 );
 ````
 
-## Unique Key
-# Definitsioon
+# Unique Key
+## Definitsioon
 
 Unique Key tagab, et kõik väärtused veerus on unikaalsed.
 Milleks kasutatakse?
@@ -68,8 +68,8 @@ CREATE TABLE Kasutaja (
 
 ````
 
-## Simple Key
-#Definitsioon
+# Simple Key
+## Definitsioon
 
 Simple Key koosneb ainult ühest atribuudist.
 Milleks kasutatakse?
@@ -85,8 +85,8 @@ CREATE TABLE Raamat (
 );
 ````
 
-## Composite Key
-# Definitsioon
+# Composite Key
+## Definitsioon
 
 Composite Key koosneb kahest või enamast väljast, mis koos tagavad unikaalsuse.
 Milleks kasutatakse?
@@ -102,9 +102,9 @@ CREATE TABLE Hinne (
     hinne INT,
     PRIMARY KEY (opilane_id, aine_id));
 ````
-## Compound Key
+# Compound Key
 
-# Definitsioon
+## Definitsioon
 
 Compound Key on Composite Key erijuht, kus võtme moodustavad mitu atribuuti ja vähemalt üks neist võib olla Foreign Key.
 Milleks kasutatakse?
@@ -125,9 +125,9 @@ CREATE TABLE Registreerimine(
     FOREIGN KEY (kursus_id) REFERENCES Kursus(kursus_id));
 ````
 
-## Superkey
+# Superkey
 
-# Definitsioon
+## Definitsioon
 Superkey on üks või mitu atribuuti, mis võimaldavad kirje üheselt tuvastada.
 Milleks kasutatakse?
 Võimalike kandidaatvõtmete leidmiseks.
@@ -149,9 +149,10 @@ CREATE TABLE Tootaja (
 --Kõik need tuvastavad rea üheselt.
 
 ````
-## Candidate Key (Kandidaatvõti)
+# Candidate Key (Kandidaatvõti)
 
-#Definitsioon
+## Definitsioon
+
 Candidate Key on minimaalne superkey.
 Milleks kasutatakse?
 Primary Key valimiseks.
@@ -173,9 +174,9 @@ isikukood
 --Mõlemad identifitseerivad töötaja üheselt.
 ````
 
-## Alternate Key (Alternatiivvõti)
+# Alternate Key (Alternatiivvõti)
 
-# Definitsioon
+## Definitsioon
 Alternate Key on kandidaatvõti, mida ei valitud Primary Key-ks.
 Milleks kasutatakse?
 Alternatiivseks unikaalseks identifitseerimiseks.
