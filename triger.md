@@ -25,8 +25,8 @@ aeg DATETIME,
 andmed TEXT);
 ```
 
-```sql
---1. Triger lisatud andmete jälgimeseks tabelis linnad.
+```
+--Triger lisatud andmete jälgimeseks tabelis linnad.
 --jälgib linna sisestamine tabelisse ja teeb vastava kirje logi-tabelis
 CREATE TRIGGER linnaLisamine
 ON linnad -- tabel, mida triger jälgib
