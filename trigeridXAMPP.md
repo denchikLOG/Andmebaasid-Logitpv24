@@ -23,3 +23,10 @@
 <img width="663" height="402" alt="{B804B60C-4DBB-451B-90D7-3EFEEF88FB30}" src="https://github.com/user-attachments/assets/7740af53-608a-4746-be88-3e05f8ff8b5d" />
 
 # Tema õigused:
+
+<img width="1142" height="37" alt="{405D3276-C0ED-4C2B-A1DE-BA5E9C01EEE1}" src="https://github.com/user-attachments/assets/550b97b4-3995-4787-808f-915e6ad0d69c" />
+
+
+# Kontrollimine:
+
+<img width="352" height="97" alt="{04BC32CE-551C-40DA-B922-DAC1E62C05D6}" src="https://github.com/user-attachments/assets/dbcac912-4851-4301-b038-b2d74ec705ae" />
