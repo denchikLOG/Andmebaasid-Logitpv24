@@ -52,6 +52,9 @@ CREATE TABLE Opilane (
 );
 ````
 
+<img width="239" height="312" alt="{19635BF3-26CA-428B-9EA9-AA05BD2CBAC5}" src="https://github.com/user-attachments/assets/e6323701-9169-4e5f-9dcb-6b6728dd81ff" />
+
+
 # Unique Key
 ## Definitsioon
 
