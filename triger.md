@@ -1,8 +1,7 @@
-## Triger - trigger -päästik
-
 ## Andmebaaside konspektid
 [Create_insert](Create_insert.md) | [Kasutaja](Kasutaja.md) | [triger](triger.md) | [trigeridXAMPP](trigeridXAMPP.md) | [Keys](Keys.md)
 
+## Triger - trigger -päästik
 
 ### Triger - andmebaasi objekt, mis käivitub automaatselt, kui toimub teatud sündmus (nt INSERT, UPDATE, DELETE).
 Trigerite loomine - automatseerub protsessid SQL Serveris.
