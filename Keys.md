@@ -1,3 +1,6 @@
+## Andmebaaside konspektid
+[Create_insert](Create_insert.md) | [Kasutaja](Kasutaja.md) | [triger](triger.md) | [trigeridXAMPP](trigeridXAMPP.md) | [Keys](Keys.md)
+
 # Primary Key (Primaarvõti)
 ## Definitsioon
 
