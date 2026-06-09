@@ -1,5 +1,5 @@
 ## Andmebaaside konspektid
-[Create_insert](Create_insert.md) | [Kasutaja](Kasutaja.md) | [triger](triger.md) | [trigeridXAMPP](trigeridXAMPP.md) | [Keys](Keys.md)
+[Create_insert](Create_insert.md) | [Kasutaja](Kasutaja.md) | [Triger](triger.md) | [TrigeridXAMPP](trigeridXAMPP.md) | [Keys](Keys.md)
 
 ## AndmebaasidLogitpv24
 andmebaaside haldusega seotud sql kood ja konspektid
