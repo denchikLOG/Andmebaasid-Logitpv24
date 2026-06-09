@@ -74,7 +74,7 @@ CREATE TABLE Kasutaja (
 );
 
 ````
-<img width="229" height="96" alt="{2626A8B2-66A9-41F2-A4D9-BEE94894C2F2}" src="https://github.com/user-attachments/assets/ec1e960b-4a73-4111-a5d0-cb8e78d36db3" />
+<img width="1043" height="286" alt="{33B8FCD5-C66C-417A-9CED-B331823F4C5A}" src="https://github.com/user-attachments/assets/f1489c51-895c-4e35-b046-5254c311b120" />
 
 
 # Simple Key
