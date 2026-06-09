@@ -23,6 +23,7 @@ CREATE TABLE Opilane (
     perenimi VARCHAR(50)
 );
 ````
+<img width="228" height="126" alt="{515D4188-7534-42C2-9D20-163F079F878D}" src="https://github.com/user-attachments/assets/3a38c337-d0d9-4721-a24b-6cfaaa2acab4" />
 
 # Foreign Key (Võõrvõti)
 ## Definitsioon
@@ -73,6 +74,8 @@ CREATE TABLE Kasutaja (
 );
 
 ````
+<img width="229" height="96" alt="{2626A8B2-66A9-41F2-A4D9-BEE94894C2F2}" src="https://github.com/user-attachments/assets/ec1e960b-4a73-4111-a5d0-cb8e78d36db3" />
+
 
 # Simple Key
 ## Definitsioon
@@ -86,10 +89,11 @@ Näide:
 
 ````
 CREATE TABLE Raamat (
-    isbn VARCHAR(20) PRIMARY KEY,
+    raamat VARCHAR(20) PRIMARY KEY,
     pealkiri VARCHAR(100)
 );
 ````
+<img width="223" height="101" alt="{6A014D73-4939-4A66-AAA9-A767F8F8BF8C}" src="https://github.com/user-attachments/assets/2d9b57bd-3919-4fab-a268-6d6c51d34d7e" />
 
 # Composite Key
 ## Definitsioon
@@ -108,8 +112,9 @@ CREATE TABLE Hinne (
     hinne INT,
     PRIMARY KEY (opilane_id, aine_id));
 ````
-# Compound Key
+<img width="219" height="121" alt="{BA76E928-CB38-4B3A-BB1B-7D5DD3BE2A36}" src="https://github.com/user-attachments/assets/3be05de4-6fdc-43ee-8e8a-90b187e3f03a" />
 
+# Compound Key
 ## Definitsioon
 
 Compound Key on Composite Key erijuht, kus võtme moodustavad mitu atribuuti ja vähemalt üks neist võib olla Foreign Key.
@@ -155,10 +160,11 @@ CREATE TABLE Tootaja (
 --(tootaja_id, nimi)
 --(isikukood, nimi)
 --Kõik need tuvastavad rea üheselt.
-
 ````
-# Candidate Key (Kandidaatvõti)
+<img width="222" height="120" alt="{6BE9440D-1F8E-4945-9FA8-6B209596796E}" src="https://github.com/user-attachments/assets/5406169e-ad26-46a4-8707-1fd48cc8e048" />
 
+
+# Candidate Key (Kandidaatvõti)
 ## Definitsioon
 
 Candidate Key on minimaalne superkey.
@@ -181,9 +187,10 @@ tootaja_id
 isikukood
 --Mõlemad identifitseerivad töötaja üheselt.
 ````
+<img width="220" height="128" alt="{053B8DA7-8AF3-4DAA-ABA8-F7AB650595AF}" src="https://github.com/user-attachments/assets/fb350a6c-0979-4434-97a9-b43e1c208e2c" />
+
 
 # Alternate Key (Alternatiivvõti)
-
 ## Definitsioon
 Alternate Key on kandidaatvõti, mida ei valitud Primary Key-ks.
 Milleks kasutatakse?
